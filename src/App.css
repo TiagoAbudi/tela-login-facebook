@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+body {
+  background-color: #F0F2F5;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body .wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body .cont-itens {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 140px;
+}
+body .cont-itens .itens {
+  margin-bottom: auto;
+}
+body .cont-itens .itens .cont-img-logo {
+  width: 300px;
+  margin-top: 100px;
+}
+body .cont-itens .itens .cont-img-logo img {
+  width: 100%;
+}
+body .cont-itens .itens .cont-text p {
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  margin-left: 25px;
+}
+body .cont-itens .itens .cont-card {
+  background-color: #FFF;
+  border-radius: 5px;
+  width: 25rem;
+  box-shadow: 1px 1px 10px 1px rgb(211, 211, 211);
+  margin-top: 50px;
+}
+body .cont-itens .itens .cont-card .card-body {
+  padding: 20px;
+}
+body .cont-itens .itens .cont-card .card-body .cont-campos-login input {
+  height: 50px;
+  font-size: 18px;
+}
+body .cont-itens .itens .cont-card .card-body .cont-campos-login ::-moz-placeholder {
+  color: #919090;
+  opacity: 1;
+}
+body .cont-itens .itens .cont-card .card-body .cont-campos-login ::placeholder {
+  color: #919090;
+  opacity: 1;
+}
+body .cont-itens .itens .cont-card .card-body .cont-btn-entrar button {
+  width: 100%;
+  padding: 13px;
+  font-weight: 500;
+  font-size: 20px;
+}
+body .cont-itens .itens .cont-card .card-body .cont-btn-entrar a {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-decoration: none;
+}
+body .cont-itens .itens .cont-card .cont-nova-conta {
+  width: 200px;
+  margin: auto;
+}
+body .cont-itens .itens .cont-card .cont-nova-conta button {
+  width: 200px;
+  background-color: #42B72a;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+}
+body .cont-itens .itens .cont-criar-pagina {
+  text-align: center;
+  margin-top: 25px;
+}
+body .cont-itens .itens .cont-criar-pagina p {
+  font-size: 14px;
+}
+body .cont-itens .itens .cont-criar-pagina a {
+  text-decoration: none;
+  color: black;
+}
+body footer {
+  background-color: #fff;
+  color: #919090;
+}
+body footer a {
+  color: #919090;
+  text-decoration: none;
+  padding: 10px 0px 0px 10px;
+}
+body footer a:hover {
+  color: #919090;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 770px) {
+  .cont-text {
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+}/*# sourceMappingURL=facebook.css.map */
